@@ -1,6 +1,6 @@
 <template lang="pug">
   v-app
-    v-navigation-drawer.d-sm-none(
+    v-navigation-drawer.d-lg-none(
       v-model="drawer"
       right
       fixed
@@ -22,10 +22,10 @@
       )
         v-toolbar-title.text-h4.d-flex.align-center
           div(style="color: #DD2C00") НТП
-          div.ml-2.text-h6.text-sm-h5 Деловые консультации
+          div.ml-2.text-h6.text-lg-h5 Деловые консультации
       v-spacer
-      v-app-bar-nav-icon.d-sm-none(@click.stop="drawer = !drawer")
-      v-toolbar-items.d-none.d-sm-flex(
+      v-app-bar-nav-icon.d-lg-none(@click.stop="drawer = !drawer")
+      v-toolbar-items.d-none.d-lg-flex(
         v-for="link in links"
         :key="link.text+'navbar'"
       )
@@ -40,9 +40,9 @@
       app
       absolute
     )
-      div.d-sm-none.text-center <!--mobile view-->
+      div.d-md-none.text-center <!--mobile view-->
         SugarMark
-      div.d-none.d-sm-flex <!--PC view-->
+      div.d-none.d-md-flex <!--PC view-->
         span Сложные и нестандартные проекты в области права
         v-spacer
         SugarMark
