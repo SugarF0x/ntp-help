@@ -1,21 +1,33 @@
 <template lang="pug">
   v-app
-    v-app-bar.app-bar(app)
+    v-navigation-drawer.d-sm-none(
+      v-model="drawer"
+      right
+      fixed
+    )
+      v-list
+        h2.text-center.mb-1 Навигация
+        v-list-item(
+          v-for="link in links"
+          :key="link.text+'drawer'"
+          :to="localePath(link.path)"
+          router
+        )
+          v-list-item-content
+            v-list-item-title(v-text="link.text")
+    v-app-bar#app-bar(app)
       router-link(
         :to="localePath('/')"
         style="text-decoration: none; color: inherit;"
       )
-        v-row(
-          justify="center"
-          align="center"
-        )
-          v-toolbar-title.ml-3.text-h4
-            span(style="color: #DD2C00") НТП
-            span.ml-2.text-h5 Деловые консультации
-      v-spacer.d-none.d-sm-flex
+        v-toolbar-title.text-h4.d-flex.align-center
+          div(style="color: #DD2C00") НТП
+          div.ml-2.text-h6.text-sm-h5 Деловые консультации
+      v-spacer
+      v-app-bar-nav-icon.d-sm-none(@click.stop="drawer = !drawer")
       v-toolbar-items.d-none.d-sm-flex(
         v-for="link in links"
-        :key="link.text"
+        :key="link.text+'navbar'"
       )
         v-btn(
           nuxt
@@ -54,6 +66,7 @@ export default Vue.extend({
 
   data() {
     return {
+      drawer: false,
       links: [
         { text: 'Сфера деятельности', path: '/' },
         { text: 'Новости', path: '/news' },
@@ -68,8 +81,10 @@ export default Vue.extend({
 </script>
 
 <style lang="sass">
-.app-bar > *
-  padding-right: 0 !important // attach nav section to the right
+#app-bar
+  width: 100%
+  > *
+    padding-right: 0 !important // attach nav section to the right
 #footer > *
   width: 100%
   align-items: center
