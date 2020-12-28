@@ -36,14 +36,16 @@
     v-main
       v-container
         nuxt
-    v-footer#footer(
+    v-footer.px-0.px-md-3#footer(
       app
       absolute
     )
       div.d-md-none.text-center <!--mobile view-->
+        div.my-2 НТП Деловые Консультации &copy; 2011-2019
+        v-divider
         SugarMark
       div.d-none.d-md-flex <!--PC view-->
-        span Сложные и нестандартные проекты в области права
+        span НТП Деловые Консультации &copy; 2011-2019
         v-spacer
         SugarMark
 </template>
