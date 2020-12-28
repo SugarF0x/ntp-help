@@ -29,26 +29,16 @@
       absolute
     )
       div.d-sm-none.text-center <!--mobile view-->
-        | Powered by
-        v-btn.pa-0.mx-1(
-          text
-          href="https://github.com/SugarF0x"
-        ) Sugar
-        | &copy; {{ new Date().getFullYear() }}
+        SugarMark
       div.d-none.d-sm-flex <!--PC view-->
         span Сложные и нестандартные проекты в области права
         v-spacer
-        span
-          | Powered by
-          v-btn(
-            text
-            href="https://github.com/SugarF0x"
-          ) Sugar
-          | &copy; {{ new Date().getFullYear() }}
+        SugarMark
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import SugarMark from '@/components/SugarMark.vue'
 
 interface Link {
   text: string,
@@ -57,6 +47,10 @@ interface Link {
 
 export default Vue.extend({
   name: 'layout-default',
+
+  components: {
+    SugarMark
+  },
 
   data() {
     return {
