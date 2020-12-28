@@ -12,8 +12,8 @@
           v-toolbar-title.ml-3.text-h4
             span(style="color: #DD2C00") НТП
             span.ml-2.text-h5 Деловые консультации
-      v-spacer
-      v-toolbar-items(
+      v-spacer.d-none.d-sm-flex
+      v-toolbar-items.d-none.d-sm-flex(
         v-for="link in links"
         :key="link.text"
       )
@@ -24,19 +24,27 @@
     v-main
       v-container
         nuxt
-    v-footer(
+    v-footer#footer(
       app
       absolute
     )
-      span Сложные и нестандартные проекты в области права
-      v-spacer
-      span
+      div.d-sm-none.text-center <!--mobile view-->
         | Powered by
         v-btn.pa-0.mx-1(
           text
           href="https://github.com/SugarF0x"
         ) Sugar
         | &copy; {{ new Date().getFullYear() }}
+      div.d-none.d-sm-flex <!--PC view-->
+        span Сложные и нестандартные проекты в области права
+        v-spacer
+        span
+          | Powered by
+          v-btn(
+            text
+            href="https://github.com/SugarF0x"
+          ) Sugar
+          | &copy; {{ new Date().getFullYear() }}
 </template>
 
 <script lang="ts">
@@ -68,4 +76,7 @@ export default Vue.extend({
 <style lang="sass">
 .app-bar > *
   padding-right: 0 !important // attach nav section to the right
+#footer > *
+  width: 100%
+  align-items: center
 </style>
