@@ -21,8 +21,8 @@
         style="text-decoration: none; color: inherit;"
       )
         v-toolbar-title.text-h4.d-flex.align-center
-          div(style="color: #DD2C00") НТП
-          div.ml-2.text-h6.text-lg-h5 Деловые консультации
+          div(style="color: #DD2C00") {{ $t("ntp.title") }}
+          div.ml-2.text-h6.text-lg-h5 {{ $t("ntp.subtitle") }}
       v-spacer
       v-app-bar-nav-icon.d-lg-none(@click.stop="drawer = !drawer")
       v-toolbar-items.d-none.d-lg-flex(
@@ -49,11 +49,11 @@
       absolute
     )
       div.d-md-none.text-center <!--mobile view-->
-        div.my-2 НТП Деловые Консультации &copy; 2011-2019
+        div.my-2 {{ $t("ntp.mark") }}
         v-divider
         SugarMark
       div.d-none.d-md-flex <!--PC view-->
-        span НТП Деловые Консультации &copy; 2011-2019
+        span {{ $t("ntp.mark") }}
         v-spacer
         SugarMark
 </template>

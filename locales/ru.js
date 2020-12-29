@@ -1,4 +1,8 @@
 module.exports = {
+  "ntp.title": "НТП",
+  "ntp.subtitle": "Деловые консультации",
+  "ntp.mark": "НТП Деловые Консультации &copy; 2011-2019",
+
   "link": "ссылка",
   "link.home": "домой",
   "link.back": "назад",
