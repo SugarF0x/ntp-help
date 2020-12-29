@@ -33,6 +33,7 @@
         v-btn(
           nuxt
           :to="localePath(link.path)"
+          exact
         ) {{ link.text }}
     v-main
       v-container
