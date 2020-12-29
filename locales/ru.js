@@ -10,7 +10,7 @@ module.exports = {
 
   "nav.home": "сфера деятельности",
   "nav.news": "новости",
-  "nav.key-figures": "ключевые фигуры",
+  "nav.key-people": "ключевые фигуры",
   "nav.departments": "подразделения",
   "nav.cases": "из практики",
   "nav.contacts": "контакты"

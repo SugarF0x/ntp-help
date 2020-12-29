@@ -10,7 +10,7 @@ module.exports = {
 
   "nav.home": "scope of activity",
   "nav.news": "news",
-  "nav.key-figures": "key figures",
+  "nav.key-people": "key people",
   "nav.departments": "departments",
   "nav.cases": "cases",
   "nav.contacts": "contacts"
