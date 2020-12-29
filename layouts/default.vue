@@ -35,7 +35,15 @@
         ) {{ link.text }}
     v-main
       v-container
-        nuxt
+        v-row.fill-height(justify="center")
+          v-col.fill-height(
+            cols="12"
+            xs="11"
+            sm="10"
+            md="9"
+            lg="8"
+          )
+            nuxt
     v-footer.px-0.px-md-3#footer(
       app
       absolute
