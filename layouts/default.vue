@@ -78,12 +78,12 @@ export default Vue.extend({
     return {
       drawer: false,
       links: [
-        { text: 'Сфера деятельности', path: '/' },
-        { text: 'Новости', path: '/news' },
-        { text: 'Ключевые фигуры', path: '/key-figures' },
-        { text: 'Подразделения', path: '/departments' },
-        { text: 'Из практики', path: '/cases' },
-        { text: 'Контакты', path: '/contacts' },
+        { text: this.$t("nav.home"), path: '/' },
+        { text: this.$t("nav.news"), path: '/news' },
+        { text: this.$t("nav.key-figures"), path: '/key-figures' },
+        { text: this.$t("nav.departments"), path: '/departments' },
+        { text: this.$t("nav.cases"), path: '/cases' },
+        { text: this.$t("nav.contacts"), path: '/contacts' },
       ] as Link[]
     }
   }
