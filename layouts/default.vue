@@ -12,6 +12,7 @@
           :key="link.text+'drawer'"
           :to="localePath(link.path)"
           router
+          exact
         )
           v-list-item-content
             v-list-item-title(v-text="link.text")
