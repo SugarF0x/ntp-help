@@ -11,6 +11,7 @@
           v-for="link in links"
           :key="link.text+'drawer'"
           :to="localePath(link.path)"
+          :disabled="link.disabled"
           router
           exact
         )
@@ -34,6 +35,7 @@
           nuxt
           :to="localePath(link.path)"
           exact
+          :disabled="link.disabled"
         ) {{ link.text }}
     v-main
       v-container
@@ -64,11 +66,6 @@
 import Vue from 'vue'
 import SugarMark from '@/components/SugarMark.vue'
 
-interface Link {
-  text: string,
-  path: string
-}
-
 export default Vue.extend({
   name: 'layout-default',
 
@@ -79,14 +76,14 @@ export default Vue.extend({
   data() {
     return {
       drawer: false,
-      links: [
+      links: [ // TODO: remove disabled key on page completion - there are none to be left by release
         { text: this.$t("nav.home"), path: '/' },
-        { text: this.$t("nav.news"), path: '/news' },
+        { text: this.$t("nav.news"), path: '/news', disabled: true },
         { text: this.$t("nav.key-people"), path: '/key-people' },
-        { text: this.$t("nav.departments"), path: '/departments' },
-        { text: this.$t("nav.cases"), path: '/cases' },
-        { text: this.$t("nav.contacts"), path: '/contacts' },
-      ] as Link[]
+        { text: this.$t("nav.departments"), path: '/departments', disabled: true },
+        { text: this.$t("nav.cases"), path: '/cases', disabled: true },
+        { text: this.$t("nav.contacts"), path: '/contacts', disabled: true },
+      ]
     }
   }
 })
