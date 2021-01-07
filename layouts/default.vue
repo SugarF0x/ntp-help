@@ -16,7 +16,7 @@
           exact
         )
           v-list-item-content
-            v-list-item-title(v-text="link.text")
+            v-list-item-title(v-text="$t(link.text)")
     v-app-bar#app-bar(app)
       router-link(
         :to="localePath('/')"
@@ -36,7 +36,7 @@
           :to="localePath(link.path)"
           exact
           :disabled="link.disabled"
-        ) {{ link.text }}
+        ) {{ $t(link.text) }}
     v-main
       v-container
         v-row.fill-height(justify="center")
@@ -77,12 +77,12 @@ export default Vue.extend({
     return {
       drawer: false,
       links: [ // TODO: remove disabled key on page completion - there are none to be left by release
-        { text: this.$t("nav.home"), path: '/' },
-        { text: this.$t("nav.news"), path: '/news', disabled: true },
-        { text: this.$t("nav.key-people"), path: '/key-people' },
-        { text: this.$t("nav.departments"), path: '/departments', disabled: true },
-        { text: this.$t("nav.cases"), path: '/cases', disabled: true },
-        { text: this.$t("nav.contacts"), path: '/contacts', disabled: true },
+        { text: "nav.home", path: '/' },
+        { text: "nav.news", path: '/news', disabled: true },
+        { text: "nav.key-people", path: '/key-people' },
+        { text: "nav.departments", path: '/departments', disabled: true },
+        { text: "nav.cases", path: '/cases', disabled: true },
+        { text: "nav.contacts", path: '/contacts', disabled: true },
       ]
     }
   }
