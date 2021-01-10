@@ -1,5 +1,5 @@
 <template lang="pug">
-  nuxt-content.details.text-justify(:document="page")
+  nuxt-content.details(:document="page")
 </template>
 
 <script lang="ts">
