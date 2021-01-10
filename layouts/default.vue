@@ -6,7 +6,6 @@
       fixed
     )
       v-list.text-uppercase
-        h2.text-center.mb-1 {{ $t("nav") }}
         v-list-item(
           v-for="link in links"
           :key="link.text+'drawer'"

@@ -10,7 +10,6 @@ module.exports = {
   "link.reload": "обновить",
   "link.details": "подробнее",
 
-  "nav": "навигация",
   "nav.home": "сфера деятельности",
   "nav.news": "новости",
   "nav.key-people": "ключевые фигуры",

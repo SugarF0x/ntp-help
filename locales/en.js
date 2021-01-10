@@ -10,7 +10,6 @@ module.exports = {
   "link.reload": "reload",
   "link.details": "details",
 
-  "nav": "navigation",
   "nav.home": "scope of activity",
   "nav.news": "news",
   "nav.key-people": "key people",
