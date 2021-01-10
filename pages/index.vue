@@ -34,8 +34,8 @@ export default Vue.extend({
     const pages = await $content(`${app.i18n.locale}/home`).fetch()
     if (Array.isArray(pages))
       return {
-        excerpt: pages[0],
-        details: pages[1]
+        excerpt: pages.find(entry => entry.path.includes('excerpt')),
+        details: pages.find(entry => entry.path.includes('details'))
       }
     else
       console.error(new Error('Failed home page fetch: pages is not an array'))
