@@ -11,6 +11,8 @@ module.exports = {
   "link.reload": "обновить",
   "link.details": "подробнее",
 
+  "locale.switch": "To English version",
+
   "nav.home": "сфера деятельности",
   "nav.news": "новости",
   "nav.key-people": "ключевые фигуры",

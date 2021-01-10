@@ -5,17 +5,20 @@
       right
       fixed
     )
-      v-list.text-uppercase
-        v-list-item(
-          v-for="link in links"
-          :key="link.text+'drawer'"
-          :to="localePath(link.path)"
-          :disabled="link.disabled"
-          router
-          exact
-        )
-          v-list-item-content
-            v-list-item-title(v-text="$t(link.text)")
+      v-layout(column).fill-height
+        v-list.text-uppercase
+          v-list-item(
+            v-for="link in links"
+            :key="link.text+'drawer'"
+            :to="localePath(link.path)"
+            :disabled="link.disabled"
+            router
+            exact
+          )
+            v-list-item-content
+              v-list-item-title(v-text="$t(link.text)")
+        v-spacer
+        v-btn.ma-2(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')") {{ $t("locale.switch") }}
 
     v-app-bar#app-bar(app)
       router-link(
@@ -66,6 +69,11 @@
         span.mx-2.text--disabled |
         span {{ $t("ntp.ria") }}
         v-spacer
+        v-btn.px-0(
+          :to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')"
+          text
+        ) {{ $t("locale.switch") }}
+        span.mx-2.text--disabled |
         SugarMark
 </template>
 

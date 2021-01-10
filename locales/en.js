@@ -11,6 +11,8 @@ module.exports = {
   "link.reload": "reload",
   "link.details": "details",
 
+  "locale.switch": "На Русскую версию",
+
   "nav.home": "scope of activity",
   "nav.news": "news",
   "nav.key-people": "key people",
