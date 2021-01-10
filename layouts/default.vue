@@ -56,14 +56,14 @@
             div.text-caption.text-md-h6 {{ $t("ntp.motto") }}
             v-img(src="~/assets/img/header.jpg").d-none.d-md-flex
             nuxt.mt-5
-    v-footer.px-0.px-md-3#footer(
+    v-footer.px-0.px-md-3.pb-0.py-1.pb-md-1.pt-md-2#footer(
       app
       absolute
     )
-      div.d-md-none.text-center <!--mobile view-->
-        div.my-2 {{ $t("ntp.mark") }}
+      div.d-md-none.text-center.text-caption <!--mobile view-->
+        div.my-1 {{ $t("ntp.mark") }}
         v-divider
-        div.my-2 {{ $t("ntp.ria") }}
+        div.my-1 {{ $t("ntp.ria") }}
         v-divider
         SugarMark
       div.d-none.d-md-flex <!--PC view-->
