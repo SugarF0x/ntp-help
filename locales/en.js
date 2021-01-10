@@ -3,6 +3,7 @@ module.exports = {
   "ntp.subtitle": "Business consulting",
   "ntp.motto": "Complex and non-standard projects in the field of law",
   "ntp.mark": "NTP Business consulting © 2011-2019",
+  "ntp.ria": "Photos by RIA News",
 
   "link": "link",
   "link.home": "home",

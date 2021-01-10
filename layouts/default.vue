@@ -58,9 +58,13 @@
       div.d-md-none.text-center <!--mobile view-->
         div.my-2 {{ $t("ntp.mark") }}
         v-divider
+        div.my-2 {{ $t("ntp.ria") }}
+        v-divider
         SugarMark
       div.d-none.d-md-flex <!--PC view-->
         span {{ $t("ntp.mark") }}
+        span.mx-2.text--disabled |
+        span {{ $t("ntp.ria") }}
         v-spacer
         SugarMark
 </template>
