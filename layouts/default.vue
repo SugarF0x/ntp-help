@@ -23,7 +23,7 @@
         style="text-decoration: none; color: inherit;"
       )
         v-toolbar-title.text-h4.d-flex.align-center
-          div(style="color: #DD2C00") {{ $t("ntp.title") }}
+          div(style="color: #DD2C00") {{ $t("ntp") }}
           div.ml-2.text-h6.text-lg-h5 {{ $t("ntp.subtitle") }}
       v-spacer
       v-app-bar-nav-icon.d-lg-none(@click.stop="drawer = !drawer")
