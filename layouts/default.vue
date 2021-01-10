@@ -53,9 +53,10 @@
             md="9"
             lg="8"
           )
-            div.text-caption.text-md-h6 {{ $t("ntp.motto") }}
-            v-img(src="~/assets/img/header.jpg").d-none.d-md-flex
+            div.text-body-2.text-md-h6 {{ $t("ntp.motto") }}
+            v-img(src="~/assets/img/header.jpg").d-none.d-sm-flex
             nuxt.mt-5
+
     v-footer.px-0.px-md-3.pb-0.py-1.pb-md-1.pt-md-2#footer(
       app
       absolute
