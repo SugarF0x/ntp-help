@@ -1,6 +1,7 @@
 <template lang="pug">
-  div
-    nuxt-content.details(:document="excerpt")
+  div.details
+    v-img(src="~/assets/img/home.jpg").float-right.ml-3.mb-3.resize
+    nuxt-content(:document="excerpt")
     v-btn(
       @click="show = !show"
       text
@@ -9,7 +10,7 @@
       v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
       | {{ $t("link.details") }}
     v-expand-transition
-      nuxt-content.details(
+      nuxt-content(
         v-show="show"
         :document="details"
       )
@@ -41,6 +42,15 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style lang="sass" scoped>
+.resize
+  max-width: 120px
+  @media (min-width: 600px)
+    max-width: 160px
+  @media (min-width: 960px)
+    max-width: 200px
+</style>
 
 <style lang="sass">
 .details
