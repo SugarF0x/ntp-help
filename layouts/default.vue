@@ -18,7 +18,9 @@
             v-list-item-content
               v-list-item-title(v-text="$t(link.text)")
         v-spacer
-        v-btn.ma-2(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')") {{ $t("locale.switch") }}
+        v-btn(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')").ma-2
+          | {{ $t("locale.switch") }}
+          v-icon(right) mdi-translate
 
     v-app-bar#app-bar(app)
       router-link(
@@ -69,10 +71,9 @@
         span.mx-2.text--disabled |
         span {{ $t("ntp.ria") }}
         v-spacer
-        v-btn.px-0(
-          :to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')"
-          text
-        ) {{ $t("locale.switch") }}
+        v-btn(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')")
+          | {{ $t("locale.switch") }}
+          v-icon(right) mdi-translate
         span.mx-2.text--disabled |
         SugarMark
 </template>
