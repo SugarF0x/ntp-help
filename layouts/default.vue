@@ -17,6 +17,7 @@
         )
           v-list-item-content
             v-list-item-title(v-text="$t(link.text)")
+
     v-app-bar#app-bar(app)
       router-link(
         :to="localePath('/')"
@@ -37,6 +38,7 @@
           exact
           :disabled="link.disabled"
         ) {{ $t(link.text) }}
+
     v-main
       v-container
         v-row.fill-height(justify="center")
@@ -47,7 +49,9 @@
             md="9"
             lg="8"
           )
-            nuxt
+            div.text-caption.text-md-h6 {{ $t("ntp.motto") }}
+            v-img(src="~/assets/header.jpg").d-none.d-md-flex
+            nuxt.mt-5
     v-footer.px-0.px-md-3#footer(
       app
       absolute

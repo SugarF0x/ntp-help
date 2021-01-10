@@ -1,6 +1,7 @@
 module.exports = {
   "ntp.title": "NTP",
   "ntp.subtitle": "Business consulting",
+  "ntp.motto": "Complex and non-standard projects in the field of law",
   "ntp.mark": "NTP Business consulting © 2011-2019",
 
   "link": "link",
