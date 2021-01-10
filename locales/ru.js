@@ -8,6 +8,7 @@ module.exports = {
   "link.home": "домой",
   "link.back": "назад",
   "link.reload": "обновить",
+  "link.details": "подробнее",
 
   "nav": "навигация",
   "nav.home": "сфера деятельности",

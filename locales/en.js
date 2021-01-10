@@ -8,6 +8,7 @@ module.exports = {
   "link.home": "home",
   "link.back": "back",
   "link.reload": "reload",
+  "link.details": "details",
 
   "nav": "navigation",
   "nav.home": "scope of activity",

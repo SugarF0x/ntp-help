@@ -1,5 +1,18 @@
 <template lang="pug">
-  nuxt-content.details(:document="page")
+  div
+    nuxt-content.details(:document="excerpt")
+    v-btn(
+      @click="show = !show"
+      text
+      block
+    ).mb-5
+      v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
+      | {{ $t("link.details") }}
+    v-expand-transition
+      nuxt-content.details(
+        v-show="show"
+        :document="details"
+      )
 </template>
 
 <script lang="ts">
@@ -10,15 +23,21 @@ export default Vue.extend({
 
   data() {
     return {
-      page: undefined as any
+      show: false,
+      excerpt: undefined as any,
+      details: undefined as any
     }
   },
 
   async asyncData ({ $content, app }) {
-    const page = await $content(`${app.i18n.locale}/home`).fetch()
-    return {
-      page
-    }
+    const pages = await $content(`${app.i18n.locale}/home`).fetch()
+    if (Array.isArray(pages))
+      return {
+        excerpt: pages[0],
+        details: pages[1]
+      }
+    else
+      console.error(new Error('Failed home page fetch: pages is not an array'))
   }
 })
 </script>
