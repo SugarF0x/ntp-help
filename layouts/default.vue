@@ -49,7 +49,7 @@
             lg="8"
           )
             div.text-caption.text-md-h6 {{ $t("ntp.motto") }}
-            v-img(src="~/assets/header.jpg").d-none.d-md-flex
+            v-img(src="~/assets/img/header.jpg").d-none.d-md-flex
             nuxt.mt-5
     v-footer.px-0.px-md-3#footer(
       app
