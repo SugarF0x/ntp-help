@@ -113,4 +113,5 @@ export default Vue.extend({
 #footer > *
   width: 100%
   align-items: center
+  white-space: nowrap
 </style>
