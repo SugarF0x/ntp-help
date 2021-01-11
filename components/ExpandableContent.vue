@@ -1,16 +1,35 @@
-<template>
-
+<template lang="pug">
+  div
+    v-btn(
+      @click="show = !show"
+      text
+      block
+    ).mb-5
+      v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
+      | {{ buttonText }}
+    v-expand-transition
+      nuxt-content(
+        v-show="show"
+        :document="document"
+      )
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
-// TODO: create a component that will house expandable content to be pasted in a markdown file
-//   import said component beforehand in pages resorting to this mechanic
-//   including an already implemented home page feature - TO BE REFACTORED
-
 export default Vue.extend({
-  name: "ExpandableContent"
+  name: "ExpandableContent",
+
+  props: [
+    'buttonText',
+    'document'
+  ],
+
+  data() {
+    return {
+      show: false
+    }
+  }
 })
 </script>
 

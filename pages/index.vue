@@ -2,29 +2,25 @@
   div.details
     v-img(src="~/assets/img/home.jpg").float-right.ml-3.mb-3.resize
     nuxt-content(:document="excerpt")
-    v-btn(
-      @click="show = !show"
-      text
-      block
-    ).mb-5
-      v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
-      | {{ $t("link.details") }}
-    v-expand-transition
-      nuxt-content(
-        v-show="show"
-        :document="details"
-      )
+    ExpandableContent(
+      :button-text="$t('link.details')"
+      :document="details"
+    )
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import ExpandableContent from "~/components/ExpandableContent.vue"
 
 export default Vue.extend({
   name: 'home',
 
+  components: {
+    ExpandableContent
+  },
+
   data() {
     return {
-      show: false,
       excerpt: undefined as any,
       details: undefined as any
     }
