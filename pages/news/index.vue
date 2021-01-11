@@ -1,10 +1,10 @@
 <template lang="pug">
   div.details
-    v-img(src="~/assets/img/home.jpg").float-right.ml-3.mb-3.resize
-    nuxt-content(:document="excerpt")
+    v-img(src="~/assets/img/news.jpg").float-right.ml-3.mb-3.resize
+    nuxt-content(:document="news")
     ExpandableContent(
-      :button-text="$t('link.details')"
-      :document="details"
+      :button-text="$t('news.archive')"
+      :document="archive"
     )
 </template>
 
@@ -13,7 +13,7 @@ import Vue from 'vue'
 import ExpandableContent from "~/components/ExpandableContent.vue"
 
 export default Vue.extend({
-  name: 'home',
+  name: "news",
 
   components: {
     ExpandableContent
@@ -21,17 +21,17 @@ export default Vue.extend({
 
   data() {
     return {
-      excerpt: undefined as any,
-      details: undefined as any
+      archive: undefined as any,
+      news: undefined as any
     }
   },
 
   async asyncData ({ $content, app }) {
-    const pages = await $content(`${app.i18n.locale}/home`).fetch()
+    const pages = await $content(`${app.i18n.locale}/news`).fetch()
     if (Array.isArray(pages))
       return {
-        excerpt: pages.find(entry => entry.slug === 'excerpt'),
-        details: pages.find(entry => entry.slug === 'details')
+        archive: pages.find(entry => entry.slug === 'archive'),
+        news: pages.find(entry => entry.slug === 'news')
       }
     else
       console.error(new Error('Failed home page fetch: pages is not an array'))
@@ -41,15 +41,9 @@ export default Vue.extend({
 
 <style lang="sass" scoped>
 .resize
-  max-width: 120px
+  max-width: 170px
   @media (min-width: 600px)
-    max-width: 160px
-  @media (min-width: 960px)
     max-width: 200px
-</style>
-
-<style lang="sass">
-.details
-  ul
-    margin-bottom: 1rem
+  @media (min-width: 960px)
+    max-width: 275px
 </style>

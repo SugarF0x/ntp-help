@@ -18,5 +18,7 @@ module.exports = {
   "nav.key-people": "key people",
   "nav.departments": "departments",
   "nav.cases": "cases",
-  "nav.contacts": "contacts"
+  "nav.contacts": "contacts",
+
+  "news.archive": "archive"
 }

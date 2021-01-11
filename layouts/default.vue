@@ -95,7 +95,7 @@ export default Vue.extend({
       drawer: false,
       links: [ // TODO: remove disabled key on page completion - there are none to be left by release
         { text: "nav.home", path: '/' },
-        { text: "nav.news", path: '/news', disabled: true },
+        { text: "nav.news", path: '/news' },
         { text: "nav.key-people", path: '/key-people' },
         { text: "nav.departments", path: '/departments', disabled: true },
         { text: "nav.cases", path: '/cases', disabled: true },

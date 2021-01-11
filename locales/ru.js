@@ -18,5 +18,7 @@ module.exports = {
   "nav.key-people": "ключевые фигуры",
   "nav.departments": "подразделения",
   "nav.cases": "из практики",
-  "nav.contacts": "контакты"
+  "nav.contacts": "контакты",
+
+  "news.archive": "архив"
 }
