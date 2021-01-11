@@ -1,6 +1,6 @@
 <template lang="pug">
   div.details
-    v-img(src="~/assets/img/home.jpg").float-right.ml-3.mb-3.resize
+    v-img.float-right.ml-3.mb-3.resize(src="~/assets/img/home.jpg")
     nuxt-content(:document="excerpt")
     ExpandableContent(
       :button-text="$t('link.details')"

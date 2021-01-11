@@ -1,10 +1,10 @@
 <template lang="pug">
   div
-    v-btn(
+    v-btn.mb-5(
       @click="show = !show"
       text
       block
-    ).mb-5
+    )
       v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
       | {{ buttonText }}
     v-expand-transition

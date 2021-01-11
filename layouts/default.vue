@@ -5,7 +5,7 @@
       right
       fixed
     )
-      v-layout(column).fill-height
+      v-layout.fill-height(column)
         v-list.text-uppercase
           v-list-item(
             v-for="link in links"
@@ -18,7 +18,7 @@
             v-list-item-content
               v-list-item-title(v-text="$t(link.text)")
         v-spacer
-        v-btn(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')").ma-2
+        v-btn.ma-2(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')")
           | {{ $t("locale.switch") }}
           v-icon(right) mdi-translate
 
@@ -54,7 +54,7 @@
             lg="8"
           )
             div.text-body-2.text-md-h6 {{ $t("ntp.motto") }}
-            v-img(src="~/assets/img/header.jpg").d-none.d-sm-flex
+            v-img.d-none.d-sm-flex(src="~/assets/img/header.jpg")
             nuxt.mt-5
 
     v-footer.px-0.px-md-3.pb-0.py-1.pb-md-1.pt-md-2#footer(

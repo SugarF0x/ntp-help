@@ -1,6 +1,6 @@
 <template lang="pug">
   div.details
-    v-img(src="~/assets/img/news.jpg").float-right.ml-3.mb-3.resize
+    v-img.float-right.ml-3.mb-3.resize(src="~/assets/img/news.jpg")
     nuxt-content(:document="news")
     ExpandableContent(
       :button-text="$t('news.archive')"
