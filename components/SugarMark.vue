@@ -8,11 +8,3 @@
     ) Sugar
     | &copy; {{ new Date().getFullYear() }}
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: "SugarMark"
-})
-</script>

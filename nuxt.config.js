@@ -52,7 +52,7 @@ export default {
       }
     },
     theme: {
-      dark: true // TODO: remove this since its dark only to save my from going blind
+      dark: false
     }
   },
   build: {
