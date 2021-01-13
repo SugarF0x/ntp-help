@@ -1,5 +1,5 @@
 <template lang="pug">
-  nuxt-content.details(:document="page")
+  nuxt-content.content(:document="page")
 </template>
 
 <script lang="ts">
@@ -22,9 +22,3 @@ export default Vue.extend({
   }
 })
 </script>
-
-<style lang="sass">
-.details
-  ul
-    margin-bottom: 1rem
-</style>

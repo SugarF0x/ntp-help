@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.details
+  div.content
     v-img.float-right.ml-3.mb-3.resize(src="~/assets/img/news.jpg")
     nuxt-content(:document="news")
     ExpandableContent(

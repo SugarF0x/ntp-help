@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.details
+  div.content
     v-img.float-right.ml-3.mb-3.resize(src="~/assets/img/home.jpg")
     nuxt-content(:document="excerpt")
     ExpandableContent(
@@ -46,10 +46,4 @@ export default Vue.extend({
     max-width: 160px
   @media (min-width: 960px)
     max-width: 200px
-</style>
-
-<style lang="sass">
-.details
-  ul
-    margin-bottom: 1rem
 </style>
