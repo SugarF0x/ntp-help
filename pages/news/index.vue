@@ -1,11 +1,12 @@
 <template lang="pug">
   div.content
-    v-img.float-right.ml-3.mb-3.resize(src="~/assets/img/news.jpg")
+    v-img.float-right.ml-3.mb-3.minBase.resize(src="~/assets/img/news.jpg")
     nuxt-content(:document="news")
     ExpandableContent(
       :button-text="$t('news.archive')"
       :document="archive"
     )
+      v-img.float-none.float-sm-left.resize(src="~/assets/img/news-archive.jpg")
 </template>
 
 <script lang="ts">
@@ -40,8 +41,9 @@ export default Vue.extend({
 </script>
 
 <style lang="sass" scoped>
-.resize
+.minBase
   max-width: 170px
+.resize
   @media (min-width: 600px)
     max-width: 200px
   @media (min-width: 960px)

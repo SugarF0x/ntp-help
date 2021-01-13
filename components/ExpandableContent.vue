@@ -12,11 +12,18 @@
         v-show="show"
         :class="nested ? 'bordered' : ''"
       )
-        slot
-        nuxt-content(
-          v-if="document || fetchedDoc"
-          :document="document || fetchedDoc"
-        )
+        div(v-if="prependSlot")
+          slot
+          nuxt-content(
+            v-if="document || fetchedDoc"
+            :document="document || fetchedDoc"
+          )
+        div(v-else)
+          nuxt-content(
+            v-if="document || fetchedDoc"
+            :document="document || fetchedDoc"
+          )
+          slot
 </template>
 
 <script lang="ts">
@@ -29,7 +36,8 @@ export default Vue.extend({
     'buttonText',
     'document',
     'documentPath',
-    'nested'
+    'nested',
+    'prependSlot'
   ],
 
   data() {
