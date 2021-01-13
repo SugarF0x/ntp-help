@@ -1,17 +1,19 @@
 <template lang="pug">
-  div
+  div(:class="nested ? 'nested' : ''")
     v-btn.mb-5(
       @click="show = !show"
       text
-      block
+      :block="!nested"
     )
       v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
       | {{ buttonText }}
     v-expand-transition
-      nuxt-content(
-        v-show="show"
-        :document="document"
-      )
+      div(v-show="show")
+        slot
+        nuxt-content(
+          v-if="document || fetchedDoc"
+          :document="document || fetchedDoc"
+        )
 </template>
 
 <script lang="ts">
@@ -22,17 +24,27 @@ export default Vue.extend({
 
   props: [
     'buttonText',
-    'document'
+    'document',
+    'documentPath',
+    'nested'
   ],
 
   data() {
     return {
-      show: false
+      show: false,
+      fetchedDoc: undefined as any
+    }
+  },
+
+  async mounted() {
+    if (this.documentPath) {
+      this.fetchedDoc = await this.$content(`${this.$i18n.locale}${this.documentPath}`).fetch()
     }
   }
 })
 </script>
 
 <style lang="sass" scoped>
-
+.nested
+  margin-left: 2rem
 </style>
