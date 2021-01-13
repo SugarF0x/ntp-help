@@ -46,5 +46,7 @@ export default Vue.extend({
 
 <style lang="sass" scoped>
 .nested
-  margin-left: 2rem
+  padding-left: 1rem
+  margin-left: 1rem
+  border-left: 1px solid lightgray
 </style>
