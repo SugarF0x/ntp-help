@@ -31,7 +31,7 @@ export default {
     'nuxt-i18n'
   ],
   content: {
-
+    liveEdit: false
   },
   i18n: {
     locales: ['en', 'ru'],
