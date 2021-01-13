@@ -11,7 +11,6 @@
             v-for="link in links"
             :key="link.text+'drawer'"
             :to="localePath(link.path)"
-            :disabled="link.disabled"
             router
             exact
           )
@@ -40,7 +39,6 @@
           nuxt
           :to="localePath(link.path)"
           exact
-          :disabled="link.disabled"
         ) {{ $t(link.text) }}
 
     v-main
@@ -93,13 +91,13 @@ export default Vue.extend({
   data() {
     return {
       drawer: false,
-      links: [ // TODO: remove disabled key on page completion - there are none to be left by release
+      links: [
         { text: "nav.home", path: '/' },
         { text: "nav.news", path: '/news' },
         { text: "nav.key-people", path: '/key-people' },
         { text: "nav.departments", path: '/departments' },
         { text: "nav.cases", path: '/cases' },
-        { text: "nav.contacts", path: '/contacts', disabled: true },
+        { text: "nav.contacts", path: '/contacts' },
       ]
     }
   }
