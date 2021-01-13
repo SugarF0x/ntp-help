@@ -8,7 +8,10 @@
       v-icon(left) {{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
       | {{ buttonText }}
     v-expand-transition
-      div(v-show="show")
+      div(
+        v-show="show"
+        :class="nested ? 'bordered' : ''"
+      )
         slot
         nuxt-content(
           v-if="document || fetchedDoc"
@@ -46,7 +49,8 @@ export default Vue.extend({
 
 <style lang="sass" scoped>
 .nested
-  padding-left: 1rem
   margin-left: 1rem
+.bordered
   border-left: 1px solid lightgray
+  padding-left: 1rem
 </style>
