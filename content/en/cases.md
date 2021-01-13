@@ -97,4 +97,4 @@
 ### [Tveruniversalbank](https://ru.m.wikipedia.org/wiki/Tveruniversalbank)
 1995 - 1997 Leading legal consultant on non-banking projects of the holding
 
-###### For confidentiality reasons, project details were not disclosed.
+###### For confidentiality reasons, project [details](/en/egg) were not disclosed.
