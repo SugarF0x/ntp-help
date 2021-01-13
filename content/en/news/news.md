@@ -96,8 +96,7 @@ The project to settle the debt owed by the developer
 of the [“Eurasia tower”](https://ru.wikipedia.org/wiki/Евразия_(Москва-Сити)) in Moscow - city to the design
 and architect company has been successfully completed.
 
-# ПЕРЕДЕЛАТЬ В ДРОПДАУН КОМПОНЕНТ
-[Media about the project](https://www.ntp-help.ru/новости/пресса-о-проекте-евразия-тауэр/)
+<expandable-content button-text="Project press" document-path="/news/extras/eurasia-press" nested="true"></expandable-content>
 
 ### 01.09.2011
 The work on the organizational and legal support to issue of shares of one of
@@ -114,11 +113,12 @@ At present, we are working at two more similar projects.
 ### 18.07.2011
 In the academic edition - [Russian Allergic Magazine](http://rusalljournal.ru/), in collaboration
 with leading scientists - allergists Russian Federation published material, including on issues
-of judicial protection of business reputation ( goodwill) in the field of medical activity.
-[The role of hidden allergens in clinical allergy. Limits to the scientific discussions.](https://www.ntp-help.ru/деловая-репутация/)
+of judicial protection of business reputation (goodwill) in the field of medical activity.
 
-# ЭТО ТОЖЕ В ДРОПДАУН? QUESTION MARK? ^^^
+<expandable-content button-text="Paper details" document-path="/news/extras/allergies" nested="true"></expandable-content>
+
+# ПОПРАВИТЬ ЭТУ ССЫЛКУ ПО ЗАВЕРШЕНИИ СТРАНИЦЫ ПОДРАЗРЕДЕНИЙ
 
 ### 22.01.2010
-Total volume of transactions made by NTP Land Center exceeded 50 000 hectares.
+Total volume of transactions made by [NTP Land Center](https://www.ntp-help.ru/подразделения/подробнее-про-нтп-земельный-центр/) exceeded 50 000 hectares.
 We congratulate the colleagues on such significant results.
