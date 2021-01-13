@@ -117,8 +117,6 @@ of judicial protection of business reputation (goodwill) in the field of medical
 
 <expandable-content button-text="Paper details" document-path="/news/extras/allergies" nested="true"></expandable-content>
 
-# ПОПРАВИТЬ ЭТУ ССЫЛКУ ПО ЗАВЕРШЕНИИ СТРАНИЦЫ ПОДРАЗРЕДЕНИЙ
-
 ### 22.01.2010
-Total volume of transactions made by [NTP Land Center](https://www.ntp-help.ru/подразделения/подробнее-про-нтп-земельный-центр/) exceeded 50 000 hectares.
+Total volume of transactions made by NTP Land Center exceeded 50 000 hectares.
 We congratulate the colleagues on such significant results.
