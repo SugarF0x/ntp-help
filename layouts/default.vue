@@ -97,7 +97,7 @@ export default Vue.extend({
         { text: "nav.home", path: '/' },
         { text: "nav.news", path: '/news' },
         { text: "nav.key-people", path: '/key-people' },
-        { text: "nav.departments", path: '/departments', disabled: true },
+        { text: "nav.departments", path: '/departments' },
         { text: "nav.cases", path: '/cases', disabled: true },
         { text: "nav.contacts", path: '/contacts', disabled: true },
       ]
