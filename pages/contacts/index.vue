@@ -1,7 +1,7 @@
 <!--suppress HtmlUnknownTarget -->
 <template lang="pug">
   div
-    a.d-block(href="mailto:info@ntp-help.ru") info@ntp-help.ru
+    v-img.d-inline-block(src="~/assets/img/email.jpg")
     a.d-block(href="tel:+79253911742") + 7 (925) 391 17 42
     br
     p {{ $t("ntp.address") }}
