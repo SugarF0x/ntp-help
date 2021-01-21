@@ -1,5 +1,7 @@
 <template lang="pug">
-  nuxt-content.content(:document="page")
+  div.content
+    v-img.float-right.ml-3.mb-3.resize(src="~/assets/img/key-people.jpg")
+    nuxt-content(:document="page")
 </template>
 
 <script lang="ts">
@@ -22,3 +24,10 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style lang="sass" scoped>
+.resize
+  max-width: 200px
+  @media (min-width: 960px)
+    max-width: 300px
+</style>
