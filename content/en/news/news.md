@@ -1,3 +1,12 @@
+### 28.04.2021
+The structures of NTP BC acted as M&A and legal advisor to the largest deal in the field of veterinary business in the history of Russia.
+As a result of the deal, [AniCura](https://www.anicuragroup.com) (part of the [Mars Corporation](https://rus.mars.com/)),
+a European leader in the field of veterinary services for pets, entered the Russian market.
+
+Due to the involvement of a strategic investor, the network of Moscow veterinary clinics
+[Beliy Klyk](https://www.bkvet.ru/) has received unique advantages for further development,
+including a project to create a training hospital with an area of more than 4,000 square meters.
+
 ### 23.09.2019
 Partners of NTP BC took part in [Legal AI 2019](https://www.legalai.ru/) - the Russian
 conference on the application of artificial intelligence technologies in legal practice.
