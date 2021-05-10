@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   "ntp": "НТП",
   "ntp.subtitle": "Деловые консультации",
   "ntp.motto": "Сложные и нестандартные проекты в области права",
