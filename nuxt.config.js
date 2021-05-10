@@ -34,10 +34,12 @@ export default {
     liveEdit: false
   },
   i18n: {
+    vueI18nLoader: true,
     locales: ['en', 'ru'],
     defaultLocale: 'ru',
     vueI18n: {
       fallbackLocale: 'ru',
+      silentFallbackWarn: true,
       messages: {
         ...locales
       }
