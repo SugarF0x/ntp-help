@@ -1,3 +1,11 @@
+### 27.04.2022
+NTP Business Consulting is a leading consultant in the field of estate planning.
+
+As of the beginning of 2022, more than 10% of the Hereditary Funds established in Moscow were created directly
+or with the active legal support of our specialists.
+
+<expandable-content button-text="More" document-path="/news/extras/rjd" nested="true"></expandable-content>
+
 ### 28.04.2021
 The structures of NTP BC acted as M&A and legal advisor to the largest deal in the field of veterinary business in the history of Russia.
 As a result of the deal, [AniCura](https://www.anicuragroup.com) (part of the [Mars Corporation](https://rus.mars.com/)),
@@ -6,6 +14,13 @@ a European leader in the field of veterinary services for pets, entered the Russ
 Due to the involvement of a strategic investor, the network of Moscow veterinary clinics
 [Beliy Klyk](https://www.bkvet.ru/) has received unique advantages for further development,
 including a project to create a training hospital with an area of more than 4,000 square meters.
+
+### 17.12.2020
+The Arbitration Court of the city of Moscow rejected the requirement to bring to subsidiary liability in the amount
+of two billion rubles the governing bodies of Transsignalstroy JSC (the main contractor of Russian Railways
+for control systems and automation of railway traffic).
+
+<expandable-content button-text="More" document-path="/news/extras/rjd" nested="true"></expandable-content>
 
 ### 23.09.2019
 Partners of NTP BC took part in [Legal AI 2019](https://www.legalai.ru/) - the Russian

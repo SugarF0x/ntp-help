@@ -5,6 +5,7 @@ focused on professional support for projects of any complexity in the directions
 * Crisis management
 * Mediation and corporate disputes
 * M&A transactions
+* family and inheritance law
 * Intellectual property protection
 * Bankruptcy procedure
 
