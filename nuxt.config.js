@@ -30,6 +30,7 @@ export default {
   modules: [
     '@nuxt/content',
     'nuxt-i18n',
+    '@nuxtjs/robots',
     '@nuxtjs/sitemap'
   ],
   content: {
@@ -46,6 +47,9 @@ export default {
         ...locales
       }
     }
+  },
+  robots: {
+    Sitemap: 'https://ntp-help.ru/sitemap.xml'
   },
   sitemap: {
     hostname: 'https://ntp-help.ru',
