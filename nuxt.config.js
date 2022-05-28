@@ -25,11 +25,12 @@ export default {
   components: false,
   buildModules: [
     '@nuxt/typescript-build',
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
   modules: [
     '@nuxt/content',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
   content: {
     liveEdit: false
@@ -45,6 +46,10 @@ export default {
         ...locales
       }
     }
+  },
+  sitemap: {
+    hostname: 'https://ntp-help.ru',
+    i18n: true
   },
   vuetify: {
     treeShake: {
