@@ -4,7 +4,7 @@ NTP Business Consulting is a leading consultant in the field of estate planning.
 As of the beginning of 2022, more than 10% of the Hereditary Funds established in Moscow were created directly
 or with the active legal support of our specialists.
 
-<expandable-content button-text="More" document-path="/news/extras/rjd" nested="true"></expandable-content>
+<expandable-content button-text="More" document-path="/news/extras/inherit" nested="true"></expandable-content>
 
 ### 28.04.2021
 The structures of NTP BC acted as M&A and legal advisor to the largest deal in the field of veterinary business in the history of Russia.

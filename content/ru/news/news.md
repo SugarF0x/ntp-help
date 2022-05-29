@@ -4,7 +4,7 @@
 По состоянию на начало 2022 года, более 10% учрежденных в Москве Наследственных Фондов созданы непосредственно
 или при активной правовой поддержке наших специалистов.
 
-<expandable-content button-text="Подробнее" document-path="/news/extras/rjd" nested="true"></expandable-content>
+<expandable-content button-text="Подробнее" document-path="/news/extras/inherit" nested="true"></expandable-content>
 
 ### 28.04.2021
 Структуры НТП ДК выступили M&A и правовым консультантом крупнейшей в истории России сделки в сфере ветеринарного бизнеса.
