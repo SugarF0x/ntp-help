@@ -49,7 +49,8 @@ export default {
     }
   },
   robots: {
-    Sitemap: 'https://ntp-help.ru/sitemap.xml'
+    Sitemap: 'https://ntp-help.ru/sitemap.xml',
+    Host: 'ntp-help.ru'
   },
   sitemap: {
     hostname: 'https://ntp-help.ru',
