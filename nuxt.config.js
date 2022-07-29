@@ -23,7 +23,8 @@ export default {
     }
   },
   css: [
-    '~/assets/global'
+    '~/assets/global',
+    '@mdi/font/css/materialdesignicons.css'
   ],
   plugins: [
 
