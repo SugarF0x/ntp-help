@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/SugarF0x/ntp-help/compare/v1.1.1...v1.1.2) (2022-10-09)
+
+
+### Bug Fixes
+
+* use full url for alternate & canonical links ([c51a325](https://github.com/SugarF0x/ntp-help/commit/c51a325dd6929da3c4fdbda3848c1b3e808ac93c))
+
+
+
 ## [1.1.1](https://github.com/SugarF0x/ntp-help/compare/v1.1.0...v1.1.1) (2022-07-29)
 
 
