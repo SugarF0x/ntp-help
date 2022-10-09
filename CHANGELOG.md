@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/SugarF0x/ntp-help/compare/v1.1.0...v1.1.1) (2022-07-29)
+
+
+### Bug Fixes
+
+* remove yarn form ci ([26489f2](https://github.com/SugarF0x/ntp-help/commit/26489f28ffa95983b7259b86966bcb03305ac039))
+
+
+
 # [1.1.0](https://github.com/SugarF0x/ntp-help/compare/v1.0.5...v1.1.0) (2022-07-29)
 
 
