@@ -5,6 +5,8 @@ export default {
   target: 'static',
   head() {
     const i18nHead = this.$nuxtI18nHead?.({ addSeoAttributes: true }) ?? { meta: [], link: [] }
+    const BASE_URL = 'https://ntp-help.ru'
+
     return {
       titleTemplate: 'NTP Help',
       title: 'NTP Help',
@@ -18,7 +20,10 @@ export default {
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        ...i18nHead.link
+        ...i18nHead.link.map(e => {
+          if (['canonical', 'alternate'].includes(e.rel)) e.href = BASE_URL + e.href
+          return e
+        })
       ]
     }
   },
