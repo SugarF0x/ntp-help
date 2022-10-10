@@ -9,7 +9,7 @@ on:
       - 'CHANGELOG.md'
 
 env:
-  S3_BUCKET: ntp-help.ru
+  S3_BUCKET: www.ntp-help.ru
   DIST_PATH: dist/
 
 jobs:
