@@ -1,3 +1,13 @@
+## [1.1.3](https://github.com/SugarF0x/ntp-help/compare/v1.1.2...v1.1.3) (2022-12-14)
+
+
+### Bug Fixes
+
+* key people custom title ([3961a43](https://github.com/SugarF0x/ntp-help/commit/3961a43f354a98196150defd1ef8c6aa2c423c8b))
+* update key people description ([1f05f1d](https://github.com/SugarF0x/ntp-help/commit/1f05f1da92b3e66e66ac523151919083d325cd53))
+
+
+
 ## [1.1.2](https://github.com/SugarF0x/ntp-help/compare/v1.1.1...v1.1.2) (2022-10-09)
 
 
