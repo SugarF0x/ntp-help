@@ -10,6 +10,11 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'keyPeople',
 
+  head: {
+    titleTemplate: () => 'НТП Деловые консультации - Смиян Игорь Альбертович',
+    // meta: [{ hid: 'description', name: 'description', content: 'НТП Деловые Консультации, юридические и смежные услуги, сложные и нестандартные проекты, банкротство, слияния и поглощения, m&a' }]
+  },
+
   data() {
     return {
       page: undefined as any
