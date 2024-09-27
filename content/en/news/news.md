@@ -1,3 +1,27 @@
+### 25.09.2024
+The Unified Commission on Corporate Ethics of the Russian Union of Industrialists and Entrepreneurs (RSPP) has completed
+[the review of the claim](https://rspp.ru/events/news/o-zavershenii-rassmotreniya-obedinennoy-komissiey-po-korporativnoy-etike-pri-rspp-pretenzii-ilinaadaeva-filippa-olegovicha-v-otnoshenii-nikulina-maksima-leonidovicha-66eae21bf1b98/?sphrase_id=4208634)
+filed by Philipp Ilin-Adaev, founder of the Banks.ru project and owner of Russia's largest foam glass manufacturer, ICM Glass Kaluga, against the former head of the plant.
+
+The arbitration panel, chaired by the dean of the Faculty of Economics of Moscow State University,
+Professor A.A. Auzan, agreed with our arguments and found the actions of the former top manager of the enterprise inconsistent with the Charter of Corporate and Business Ethics.
+
+The RSPP Ethics Commission is an effective institution for managing business reputation,
+a "court of fairness and common sense," that reviews disputes based on the fundamental principles of honest business conduct.
+
+### 20.09.2024
+Partners from NTP Business Consultations participated in the
+8th All-Russian Legal Forum, held in Moscow.
+
+The main sections of the forum were dedicated to pressing issues in law enforcement:
+
+* Exercising and protecting corporate rights (speaker-moderator E.A. Sukhanov)
+* Insolvency of legal entities: issues in legislation and judicial practice (speaker-moderator V.V. Vitryansky)
+* Legal regulation of real estate rights (speaker-moderator V.V. Chubarov).
+
+Participating in such events allows our team to maintain a high level of engagement
+in addressing the most complex and pressing issues of modern Russian legal practice.
+
 ### 27.04.2022
 NTP Business Consulting is a leading consultant in the field of estate planning.
 
