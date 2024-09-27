@@ -14,11 +14,13 @@ export default {
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'author', content: 'Aleksei Tuzov' },
         { hid: 'description', name: 'description', content: 'НТП Деловые Консультации, юридические и смежные услуги, сложные и нестандартные проекты, банкротство, слияния и поглощения, m&a' },
         { name: 'keywords', content: 'нтп деловые консультации, банкротство застройщика, субсидиарная ответственность, смиян игорь альбертович' },
         ...i18nHead.meta
       ],
       link: [
+        { rel: 'me', href: 'https://github.com/SugarF0x' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         ...i18nHead.link.map(e => {
           if (['canonical', 'alternate'].includes(e.rel)) e.href = BASE_URL + e.href
