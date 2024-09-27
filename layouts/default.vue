@@ -64,7 +64,6 @@
         v-divider
         div.my-1 {{ $t("ntp.ria") }}
         v-divider
-        SugarMark
       div.d-none.d-md-flex <!--PC view-->
         span {{ $t("ntp.mark") + String(new Date().getFullYear()) }}
         span.mx-2.text--disabled |
@@ -73,21 +72,13 @@
         v-btn(:to="switchLocalePath($i18n.locale === 'ru' ? 'en' : 'ru')")
           | {{ $t("locale.switch") }}
           v-icon(right) mdi-translate
-        span.mx-2.text--disabled |
-        SugarMark
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import SugarMark from '@/components/SugarMark.vue'
 
 export default Vue.extend({
   name: 'layout-default',
-
-  components: {
-    SugarMark
-  },
-
   data() {
     return {
       drawer: false,
