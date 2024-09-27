@@ -1,3 +1,15 @@
+## [1.1.4](https://github.com/SugarF0x/ntp-help/compare/v1.1.3...v1.1.4) (2024-09-27)
+
+
+### Bug Fixes
+
+* **content:** add a few news entries ([12dcc5e](https://github.com/SugarF0x/ntp-help/commit/12dcc5e0f10a3a06696458e7503c54acd7558942))
+* **content:** remove mentions of Ukraine ([0b88aa9](https://github.com/SugarF0x/ntp-help/commit/0b88aa92091a5e28ec1494965e174eb17c678417))
+* **layout:** add current year to ntp.mark ([6c330aa](https://github.com/SugarF0x/ntp-help/commit/6c330aadbc214c2afb94b2cedafa37966d662283))
+* **layout:** remove sugar mark ([81977a5](https://github.com/SugarF0x/ntp-help/commit/81977a5c47ad1d42fbdf62e3bc1314a20501e5d8))
+
+
+
 ## [1.1.3](https://github.com/SugarF0x/ntp-help/compare/v1.1.2...v1.1.3) (2022-12-14)
 
 
