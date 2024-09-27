@@ -9,4 +9,4 @@ of correspondents and contractors tested the real work, you can quickly mobilize
 intellectual and human resources in any region of Russia.
 
 So we are working in online contact with our counterparts in the EU, in particular
-the Baltic States, Austria, Germany, France, Cyprus, Great Britain, Croatia, Ukraine and Kazakhstan.
+the Baltic States, Austria, Germany, France, Cyprus, Great Britain, Croatia and Kazakhstan.
