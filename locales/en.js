@@ -2,7 +2,7 @@ export default {
   "ntp": "NTP",
   "ntp.subtitle": "Business consulting",
   "ntp.motto": "Complex and non-standard projects in the field of law",
-  "ntp.mark": "NTP Business consulting © 2011-2021",
+  "ntp.mark": "NTP Business consulting © 2011-",
   "ntp.ria": "Photos by RIA News",
   "ntp.address": "105005, Moscow, Baumanskaya str, 7",
 

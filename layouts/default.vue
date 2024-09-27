@@ -60,13 +60,13 @@
       absolute
     )
       div.d-md-none.text-center.text-caption <!--mobile view-->
-        div.my-1 {{ $t("ntp.mark") }}
+        div.my-1 {{ $t("ntp.mark") + String(new Date().getFullYear()) }}
         v-divider
         div.my-1 {{ $t("ntp.ria") }}
         v-divider
         SugarMark
       div.d-none.d-md-flex <!--PC view-->
-        span {{ $t("ntp.mark") }}
+        span {{ $t("ntp.mark") + String(new Date().getFullYear()) }}
         span.mx-2.text--disabled |
         span {{ $t("ntp.ria") }}
         v-spacer
